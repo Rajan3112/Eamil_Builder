@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .container {
+    display: flex;
+    height: calc(100vh - 60px);
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    width: 20%;
+    background-color: #58a9ac;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+  }
+  
+  .sidebar h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .component {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #a18585;
+    border: 1px solid #c9277b;
+    border-radius: 5px;
+    text-align: center;
+    cursor: grab;
+  }
+  
+  .component:hover {
+    background-color: #e0e0e0;
+  }
+  
+  /* Canvas */
+  .canvas {
+    flex: 1;
+    padding: 20px;
+    background-color: #e2d6d6;
+    border: 1px dashed #920d0d;
+    overflow-y: auto;
+    position: relative;
+  }
+  
+  .canvas .placeholder {
+    text-align: center;
+    color: #aaa;
+    margin-top: 50px;
+  }
+  
+  .element {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .element img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Actions Section */
+  .actions {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #3f49b3;
+    border-top: 1px solid #ddd;
+  }
+  
+  button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #9f8888;
+  }
+  

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Email Builder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Sidebar for Email Components -->
+    <aside class="sidebar">
+      <h2>Email Components</h2>
+      <div class="component" draggable="true" data-type="text">Text Block</div>
+      <div class="component" draggable="true" data-type="image">Image</div>
+      <div class="component" draggable="true" data-type="button">Button</div>
+      <div class="component" draggable="true" data-type="divider">Divider</div>
+    </aside>
+
+    <!-- Canvas for Building the Email -->
+    <main class="canvas" id="canvas">
+      <h3 class="placeholder">Drag and drop components here to build your email</h3>
+    </main>
+  </div>
+
+  <!-- Save and Preview Buttons -->
+  <div class="actions">
+    <button id="previewBtn">Preview Email</button>
+    <button id="exportBtn">Export HTML</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
